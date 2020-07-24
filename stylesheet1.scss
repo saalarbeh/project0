@@ -1,7 +1,11 @@
 .searchbar {
     text-align: center;
-    border-radius: 100px;
     border-color: #DFE1E5;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 100px;
+    width: 582px;
+    height: 44px;
 }
 
 .hyperlink {
@@ -11,4 +15,9 @@
 #googlelogo {
     text-align: center;
     color: purple;
+
+input {
+    text-align: center;
+    width: 528px;
+    height: 44px;
 }

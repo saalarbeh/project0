@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="stylesheet1.css">
+        <link rel="stylesheet" href="stylesheet2.css">
         <title>Google Search</title>
+        <style>
+        .k4 {
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5f6368
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            height: 36px;
+            text-align: center;
+        }
+        </style>
     </head>
     <body>
         <div class="hyperlink">
             <a href="images.html">Google Images</a> | <a href="advanced.html">Advanced Search</a>
         </div>
-        <div id="googlelogo">Google</div>
-        <div class="searchbar">
+        <div id="googlelogo"><span style="color: #4285F4">G</span><span style="color:#EA4335">o</span><span style="color: #FBBC05">o</span><span style="color: #4285F4">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span></div>
+        <div style="text-align: center;">
             <form action="https://google.com/search">
-                <input type="text" name="q" placeholder="Search Google or type a URL"><br>
-                <input type="submit" value="Google Search"> 
-                <input value="I'm Feeling Lucky" name="btnI" type="submit">
+                <input type="text" name="q" style="text-align: left; padding-left: 50px;" class="searchbar"><br><img src=C:\Users\saala\OneDrive\Pictures\CS50\Icon-12-512.png style="width: 26px; height: 26px; position: relative; bottom: 46px; right: 150px;">
+                <input type="submit" value="Google Search" class="k4"> 
+                <input value="I'm Feeling Lucky" name="btnI" type="submit" class="k4">
             </form>
         </div>       
     </body>
