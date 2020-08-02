@@ -3,12 +3,48 @@
     <head>
         <title>Google Image Search</title>
         <link rel="stylesheet" href="stylesheet2.css">
+        <style>
+            #leftkeep {
+                position: absolute;
+                left: 300px;
+                z-index: 1;
+                top: 249px;
+                width: 28px;
+            }
+
+            #rightkeep {
+                position:absolute;
+                right: 50px;
+                z-index: 1;
+                top:40px;
+                width: 30px;
+            }
+
+            .k4 {
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5f6368
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            height: 36px;
+            text-align: center;
+        }
+        </style>
     </head>
     <body>
-        <div class="hyperlink"><a href="search.html">Google Search</a></div>
-        <form action="https://images.google.com/ class="searchbar"">
-            <input type="text" class="searchbar" name="q" placeholder="Search Google or type a URL">
-            <input type="submit" value="Google Images Search">
+        <div class="hyperlink"><a href="search.html" class="k4">Google Search</a></div>
+        <div id="spacer" style="text-align: center;">
+        <img src=C:\Users\saala\OneDrive\Pictures\CS50\google_images_logo.png style="width: 280px; ">
+        </div>
+        <div>
+        <form action="https://google.com/images" style="text-align: center;">
+            <input type="text" name="q" class="searchbar" style="position: relative; text-align: left; padding-left: 20px;">
+            <input type="submit" value="Search" class="k4">
+        </form>
+        </div>
     </body>
 </html>
 

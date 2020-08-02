@@ -3,13 +3,43 @@
     <head>
         <title>Google Advanced Search</title>
         <link rel="stylesheet" href="stylesheet2.css">
+        <style>     
+        #logobg {
+            width: 100%;
+            height: 60px;
+            background-color: #f1f1f1;
+            margin: 0px 0px 0px;
+            }
+        #outerlabel {
+           margin-left: 10px;
+           width: 100%;
+           height: 22px;
+           color: #d93025;
+           font: 20px arial, sans-serif;
+           margin: 0px 0px 0px 10px; 
+        }
+
+        #infobar {
+            width: 100%;
+            height: 23px;
+            margin: 25px 35px;
+        }
+
+        hr.solid {
+            border-top: 0.5px solid #bbb;
+        }
+
+        </style>
     </head>
     <body>
-        <div style="text-align: right;"><a href="search.html">Google Search</a></div>
-        <div>Find pages with...<br>
-        all these words: <input type="text"><br>
-        this exact word or phrase: <input type="text"><br>
-        any of these words: <input type="text"><br>
-        none of these words: <input type="text"></div>
+        <div id="logobg">
+            <a href="search.html"><img src="C:\Users\saala\OneDrive\Pictures\CS50\google_logo.png" style="height: 60px;"></a>
+        </div>
+        <div id="infobar">
+            <label id="outerlabel"> Advanced Search</label>
+        </div>
+        <hr class="solid">
+        <form>
+        </form>
     </body>
 </html>
