@@ -29,10 +29,65 @@
             border-top: 0.5px solid #bbb;
         }
 
+        .IOTAE {
+            width: 126px;
+            height: 30px;
+        }
+
+        .kbt {
+            width: 167px;
+            height: 42px;
+        }
+
+        #overarching {
+            margin-left: 27px;
+        }
+
+        .FACAD {
+            width: 167px;
+            height: 42px;
+        }
+
+        label {
+            color: #222222;
+            font: 13px arial, sans-serif;
+        }
+
+        .jfkinput {
+            width: 484.55px;
+            height: 29px;
+            padding: 1px 8px;
+            background: #ffffff;
+            border: 2px solid;
+            border-color: #C0C0C0 #D9D9D9 #D9D9D9 #D9D9D9;
+        }
+
+        .jyc {
+            width: 482.55px;
+            height: 41px;
+            color: #000000;
+            font: 16px arial, sans-serif;
+        }
+
+        .sectioners {
+            display: flex;
+        }
+        
+        .k4 {
+            background-color: #4D90FE;
+            border: 1px solid #4D90FE;
+            border-radius: 4px;
+            color: white;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            height: 36px;
+            text-align: center;
         </style>
     </head>
     <body>
-        <div id="logobg">
+        <div id="logobg" style="text-align: right;">
             <a href="search.html"><img src="C:\Users\saala\OneDrive\Pictures\CS50\google_logo.png" style="height: 60px;"></a>
         </div>
         <div id="infobar">
@@ -40,6 +95,62 @@
         </div>
         <hr class="solid">
         <form>
+            <div id="overarching">
+                <div style="height: 30px;"></div>
+                <div class=kbt>
+                    <div class="IOTAE">
+                        <span style="width: 125px; height: 80px; color: #333333; font: 16px arial, sans-serif;">Find pages with...</span>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div>
+                    <div class="sectioners">
+                        <div class="FACAD">
+                            <div class="IOTAE">
+                                <label>all these words:</label>
+                            </div>
+                        </div>
+                        <div class="jyc"><input class="jfkinput"></div><br>
+                    </div>
+                    <div class="sectioners">
+                        <div class="FACAD">
+                            <div class="IOTAE">
+                                <label>this exact word or phrase:</label>
+                            </div>
+                        </div>
+                        <div class="jyc"><input class="jfkinput"></div><br>
+                    </div>
+                    <div class="sectioners">
+                        <div class="FACAD">
+                            <div class="IOTAE">
+                                <label>any of these words:</label>
+                            </div>
+                        </div>
+                        <div class="jyc"><input class="jfkinput"></div><br>
+                    </div>
+                    <div class="sectioners">
+                        <div class="FACAD">
+                            <div class="IOTAE">
+                                <label>none of these words:</label>
+                            </div>
+                        </div>
+                        <div class="jyc"><input class="jfkinput"></div><br>
+                    </div>
+                    <div class="sectioners">
+                        <div class="FACAD">
+                            <div class="IOTAE">
+                                <label>numbers ranging from:</label>
+                            </div>
+                        </div>
+                        <div class="jyc"><input class="jfkinput"></div><br>
+                    </div>
+                </div>
+            </div>
         </form>
+        <div style="display: flex;">
+        <div class="FACAD"></div>
+        <div class="jyc" style="text-align: right;"><button class="k4" style="text-align: right;">Advanced Search</button></div>
+        </div>
+    <hr class="solid" style="color: #EBEBEB;">
     </body>
 </html>
