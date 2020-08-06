@@ -73,7 +73,7 @@
             display: flex;
         }
         
-        .k4 {
+        #advsub {
             background-color: #4D90FE;
             border: 1px solid #4D90FE;
             border-radius: 4px;
@@ -84,6 +84,7 @@
             padding: 0 16px;
             height: 36px;
             text-align: center;
+        }
         </style>
     </head>
     <body>
@@ -94,7 +95,7 @@
             <label id="outerlabel"> Advanced Search</label>
         </div>
         <hr class="solid">
-        <form>
+        <form action="https://google.com/search">
             <div id="overarching">
                 <div style="height: 30px;"></div>
                 <div class=kbt>
@@ -110,7 +111,7 @@
                                 <label>all these words:</label>
                             </div>
                         </div>
-                        <div class="jyc"><input class="jfkinput"></div><br>
+                        <div class="jyc"><input name="as_q" class="jfkinput"></div><br>
                     </div>
                     <div class="sectioners">
                         <div class="FACAD">
@@ -118,7 +119,7 @@
                                 <label>this exact word or phrase:</label>
                             </div>
                         </div>
-                        <div class="jyc"><input class="jfkinput"></div><br>
+                        <div class="jyc"><input name="as_epq" class="jfkinput"></div><br>
                     </div>
                     <div class="sectioners">
                         <div class="FACAD">
@@ -126,7 +127,7 @@
                                 <label>any of these words:</label>
                             </div>
                         </div>
-                        <div class="jyc"><input class="jfkinput"></div><br>
+                        <div class="jyc"><input name="as_oq" class="jfkinput"></div><br>
                     </div>
                     <div class="sectioners">
                         <div class="FACAD">
@@ -134,23 +135,17 @@
                                 <label>none of these words:</label>
                             </div>
                         </div>
-                        <div class="jyc"><input class="jfkinput"></div><br>
+                        <div class="jyc"><input name="as_eq" class="jfkinput"></div><br>
                     </div>
                     <div class="sectioners">
                         <div class="FACAD">
-                            <div class="IOTAE">
-                                <label>numbers ranging from:</label>
-                            </div>
+                            <div class="IOTAE"></div>
                         </div>
-                        <div class="jyc"><input class="jfkinput"></div><br>
-                    </div>
+                    <div class="jyc" style="text-align: right;"><input type="submit" value="Advanced Search" id="advsub" name="btn1"></div>
                 </div>
             </div>
+            </div>
         </form>
-        <div style="display: flex;">
-        <div class="FACAD"></div>
-        <div class="jyc" style="text-align: right;"><button class="k4" style="text-align: right;">Advanced Search</button></div>
-        </div>
     <hr class="solid" style="color: #EBEBEB;">
     </body>
 </html>
